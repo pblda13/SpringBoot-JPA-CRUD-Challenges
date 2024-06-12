@@ -1,7 +1,7 @@
 package com.project.OrderMaster.service;
 
 import com.project.OrderMaster.entity.Product;
-import com.project.OrderMaster.repository.productRepository;
+import com.project.OrderMaster.repository.ProductRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,10 +11,10 @@ import java.util.Optional;
 
 
 @Service
-public class productService {
+public class ProductService {
 
     @Autowired
-    private productRepository repository;
+    private ProductRepository repository;
 
 
     public Product create(Product product) {

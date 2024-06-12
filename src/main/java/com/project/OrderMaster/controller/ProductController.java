@@ -1,7 +1,7 @@
 package com.project.OrderMaster.controller;
 
 import com.project.OrderMaster.entity.Product;
-import com.project.OrderMaster.service.productService;
+import com.project.OrderMaster.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/product")
-public class productController {
+@RequestMapping("/products")
+public class ProductController {
 
     @Autowired
-    private productService service;
+    private ProductService service;
 
     @PostMapping
     public ResponseEntity<Product> create(@RequestBody Product product) {
@@ -28,7 +28,7 @@ public class productController {
 
     }
 
-    @PutMapping("{/id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Product> update(@PathVariable Long id, @RequestBody Product product) {
         try {
             Product updateProduct = service.update(id, product);

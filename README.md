@@ -1,4 +1,4 @@
-# Desafios de Desenvolvimento com Spring Boot, JPA, Kafka, Docker e AWS
+# Desafios de Desenvolvimento com Spring Boot, JPA, Kafka, Docker e AWS [Em desenvolvimento]
 
 Bem-vindo ao meu repositório de desafios de desenvolvimento! Aqui, ao longo da minha jornada de aprendizado, documentei as evoluções do meu projeto utilizando tecnologias como Spring Boot, Spring Security, JPA, Kafka, Docker e AWS.
 

@@ -1,8 +1,6 @@
+#Kafka
 server:
   port: ${PORT:8000}
 spring:
   kafka:
     bootstrap-servers: ${KAFKA_HOST:localhost:29092}
-    consumer:
-      group-id: group_id
-      auto-offset-reset: earliest

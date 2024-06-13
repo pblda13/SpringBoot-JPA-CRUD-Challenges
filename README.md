@@ -10,7 +10,7 @@ Bem-vindo ao meu repositório de desafios de desenvolvimento! Aqui, ao longo da 
 2. **Desafio 2: Implementação de Autenticação e Autorização com Spring Security** ✔️
    - Implementar autenticação e autorização utilizando Spring Security para garantir a segurança da aplicação.
 
-3. **Desafio 3: Integração com Apache Kafka**
+3. **Desafio 3: Integração com Apache Kafka**✔️
    - Integrar a aplicação com o Apache Kafka para envio e consumo de mensagens assíncronas.
 
 4. **Desafio 4: Containerização com Docker**

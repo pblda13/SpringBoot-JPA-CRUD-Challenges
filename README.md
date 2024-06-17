@@ -13,10 +13,10 @@ Bem-vindo ao meu repositório de desafios de desenvolvimento! Aqui, ao longo da 
 3. **Desafio 3: Integração com Apache Kafka**✔️
    - Integrar a aplicação com o Apache Kafka para envio e consumo de mensagens assíncronas.
 
-4. **Desafio 4: Containerização com Docker**
+4. **Desafio 4: Containerização com Docker**✔️
    - Containerizar a aplicação utilizando Docker para facilitar a implantação e distribuição em diferentes ambientes.
 
-5. **Desafio 5: Deploy na AWS**
+5. **Desafio 5: Deploy na AWS**✔️
    - Realizar o deploy da aplicação na AWS utilizando serviços como ECS, RDS e S3 para hospedar e gerenciar a aplicação na nuvem.
 
 ## Sobre o Projeto
